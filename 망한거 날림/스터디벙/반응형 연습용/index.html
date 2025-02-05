@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 애니메이션 */
+        @keyframes ani1 {
+            50% {
+                transform: translateY(10px)
+            }
+
+            100% {
+                transform: translateY(0px)
+            }
+        }
+
+        a {
+            /* display: block; */
+            width: 180px;
+            height: 50px;
+            /* 텍스트만 기준으로 대략적인 가운데 정렬 */
+            /* display: block 속성 */
+            display: block;
+            text-align: center;
+            line-height: 50px;
+
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            text-decoration: none;
+            border: 1px solid black;
+            color: black;
+            background: white;
+
+            /* transition */
+            /* transition-duration: ;
+            transition-property: ;
+            transition-timing-function: ;
+            transition-delay: ; */
+            transition: all 0.3s ease-in-out;
+            animation: ani1 1s infinite linear;
+        }
+
+        /* transition 지연시간에 따른 애니메이션? */
+
+        /* hober 사용법 태그 : hover */
+        a:hover {
+            color: white;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="">자세히보기</a>
+</body>
+
+</html>

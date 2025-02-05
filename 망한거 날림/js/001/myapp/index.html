@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body {
+            position: relative;
+        }
+
+        div {
+            width: 300px;
+            height: 300px;
+        }
+
+        #abox {
+            background-color: red;
+        }
+
+        #bbox {
+            background-color: blue;
+            display: none;
+        }
+
+        #ham {
+            width: 90px;
+            height: 90px;
+            border: 4px solid #000;
+            position: relative;
+            right: 0;
+            top: 0;
+            border-radius: 10px;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px 0; */
+        }
+
+        span {
+            width: 90%;
+            height: 10px;
+            display: block;
+            background-color: black;
+            border-radius: 4px;
+            position: absolute;
+            left: 50%;
+            /* top: 50%; */
+            transform: translate(-50%);
+        }
+
+        #ham>span:nth-child(1) {
+            top: 20px;
+        }
+
+        #ham>span:nth-child(2) {
+            top: 50%;
+        }
+
+        #ham>span:nth-child(3) {
+            bottom: 10px;
+        }
+
+        .ham1 {
+            transform: rotate(45deg)
+        }
+
+        .ham3 {
+            transform: rotate(-45deg)
+        }
+    </style>
+</head>
+
+<body>
+    <div id="abox"></div>
+    <div id="bbox"></div>
+    <div id="ham">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>''
+<script src="./index.js"></script>
+<script>
+    const abox = document.getElementById("abox");
+    const bbox = document.getElementById("bbox");
+
+    const ham = document.getElementById("ham");
+    const span1 = document.querySelector("#ham > span:nth-child(1)");
+    const span2 = document.querySelector("#ham > span:nth-child(2)");
+    const span3 = document.querySelector("#ham > span:nth-child(3)");
+    let toggle = false;
+    let toggle2 = false;
+    abox.addEventListener('click', function () {
+        if (!toggle) {
+            bbox.style.display = 'block';
+        } else {
+            bbox.style.display = 'none';
+        }
+        toggle = !toggle
+    })
+
+    ham.addEventListener('click', function () {
+        if (!toggle2) {
+            span1.classList.add("ham1");
+            span3.classList.add("ham3");
+        } else {
+            span1.classList.remove("ham1");
+            span3.classList.remove("ham3");
+        }
+        toggle2 = !toggle2
+    });
+
+
+</script>
+
+</html>

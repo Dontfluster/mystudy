@@ -1,0 +1,114 @@
+@import "reset.css";
+
+
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    /* background: #ffffff */
+}
+
+.header-wrap {
+    width: 1400px;
+    height: 84px;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    background-color: #F6F5EF;
+    /* background: #f6f5ef; */
+    justify-content: space-between;
+    color: black;
+}
+
+
+.customer-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.customer-menu>ul {
+    /* width: max-content; */
+    /* width: 100%; */
+    /* margin: 0 center; */
+    padding: 4px 0;
+    display: flex;
+    justify-content: right;
+    font-size: 16px;
+}
+
+
+.customer-menu>ul>li {
+    margin: 0 10px;
+}
+
+nav>ul {
+    padding: 10px 0;
+    display: flex;
+    font-size: 20px;
+
+}
+
+nav>ul>li {
+    margin: 0 15px;
+}
+
+.image-container {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0 auto;
+}
+
+/* .image-container p {
+    font-display: auto;
+    font-size: 100px;
+} */
+
+/* .image-container img {
+    /* margin: auto;
+    justify-content: space-between;
+} */
+
+h2 {
+    font-size: 80px;
+    background-color: aqua;
+
+}
+
+img {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button {
+    width: 100px;
+    /* 버튼의 너비를 180px만큼 늘립니다. */
+    height: 50px;
+    /* 높이를 50px만큼 늘립니다. */
+    border-radius: 20px;
+    /* 테두리를 둥글게 */
+    font-size: 17px;
+    /* 버튼에 위치한 텍스트 크기를 17px */
+    color: white;
+    /* 버튼 글씨 흰색 */
+    background-color: #000000;
+    /* 배경색 검은색 */
+    margin: 5px 0 0 200px;
+}
+
+button:hover {
+    background-color: #4000c7;
+    /* 버튼의 배경색을 남색으로 */
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+    /* 버튼에 그림자 효과를 지정합니다. */
+}
+
+
+/* background-image: url(' ../img/background.jpg'); */
+/* padding: 10px 0;   */
+/* display: flex; */
+/* font-size: 20px; */
+/* center top / 100% */
+/* 배경이미지 축약형 : 배경 이미지 삽입,배경 이미지 반복 안 함 */

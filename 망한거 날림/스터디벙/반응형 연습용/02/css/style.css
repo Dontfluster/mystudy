@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li,
+ol {
+
+    list-style: none;
+}
+
+/* 리셋 */
+
+/* .menu-gul>li {
+    color: black;
+} */
+
+.header-warp {
+    width: 100%;
+    color: black;
+}
+
+.top {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.first {
+    padding-top: 30px;
+}
+
+.first>.first-01 {
+    display: flex;
+    margin: 3px 10px;
+}
+
+.third01>.third01-01 {
+    display: flex;
+    padding-top: 28px
+}
+
+
+.third01-01>li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.second>.text01 {
+    font-size: 50px;
+}
+
+.third02>input {
+    width: 100px;
+    margin-left: 5px;
+
+}
+
+.text02 {
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 15px;
+    letter-spacing: 10px;
+
+}
+
+.under {
+    background-color: green;
+    color: white;
+}
+
+.under>.under-wrap {
+    width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+
+.under-wrap>p {
+    margin-left: 15px;
+}
+
+.user-nav02>ul {
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.user-nav03>ul {
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 여기까지 해더 상단 */
+
+.navi-home>ul {
+    margin-bottom: 40px;
+    font-size: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+
+}
+
+.text03 {
+    font-size: 12px;
+    margin: 20px auto;
+    padding-left: 20px;
+    letter-spacing: 5px;
+}
+
+
+.box {
+    margin: 30px 50px;
+    border-left: 5px solid;
+}
+
+h4 {
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: content-box;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.artcle-body02 {
+    width: 500%;
+
+}
