@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button type="button" _onclick="javascript_:popup();">버튼눌러봐</button>
+
+
+
+    <script>
+
+        var open;
+
+        function popup() {
+
+            open = window.open(url, name, option);
+
+            // option은 width, height를 줄 수 있습니다.
+
+        }
+
+
+        // 몇초 후 동작은 타임아웃을 통해서 만들어보세요.
+
+        setTimeout(function () {
+
+            open.close()
+
+        }, 10000);
+
+
+    </script>
+</body>
+
+</html>

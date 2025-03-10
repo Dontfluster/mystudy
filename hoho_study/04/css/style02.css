@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* reset */
+
+header {
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+}
+
+nav ul li {
+    /* display: inline; */
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.team {
+    width: 450px;
+    height: 100%;
+    display: flex;
+
+}
+
+.project {
+    margin-left: 30px;
+
+}
+
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

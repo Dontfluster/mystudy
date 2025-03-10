@@ -1,0 +1,128 @@
+/* @import "reset.css"; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* resetcss */
+
+header {
+    width: 100%;
+    /* 가로너비 100% */
+    background-color: blue;
+}
+
+header>.header-wrap {
+    width: 1500px;
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    color: black;
+    text-decoration: none;
+
+}
+
+h1 img {
+    width: 200px;
+    height: 45px;
+}
+
+.header-wrap>.header1>.header-left {
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+
+.header-wrap form {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.header-left input {
+    width: 200px;
+    height: 35px;
+}
+
+.header1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+
+
+
+.header1>ul {
+    display: flex;
+    padding-right: 10px;
+}
+
+.header1>ul>li {
+    margin-left: 15px;
+}
+
+/* 여기까지 헤더1 */
+
+.header2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.header2>.ul1 {
+    display: flex;
+    margin-right: 3px;
+}
+
+.ul1>li {
+    display: flex;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+.header2>.ul2 {
+    display: flex;
+    margin-right: 3px;
+}
+
+.ul2>li {
+    display: flex;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/* 여기까지 헤더2 */
+
+.main {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.main img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    box-sizing: border-box;
+
+}
+
+.main>.ce1 {
+    margin: 0 auto;
+}
+
+.main>.ce2 {
+    margin: 0 auto;
+}

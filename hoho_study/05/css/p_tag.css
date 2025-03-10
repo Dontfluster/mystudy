@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    width: 900px;
+    background: #333;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 2;
+}

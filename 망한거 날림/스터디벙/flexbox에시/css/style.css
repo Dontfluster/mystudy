@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* reset */
+
+
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+}
+
+/* 바디 전체에 폰트 적용 */
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ConBox-con1 {
+    border: 1px dotted #888;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex wrap 플렉스 아이템이 컨테이너에 넘칠 경우 줄 바꿈을 할지 여부를 결정한다 */
+    /* -nowrap : 모든 아이템을 한줄에 배치한다(기본값)
+    -wrap : 아이템을 여러줄에 나줘 배치한다
+    -wrap-reverse : 아이템을 여러줄로 나누되, 반대방향으로 배치 */
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.ConBox-con1 .box {
+    width: 30%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ConBox-con1 .box .textbox h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* 콘텐츠박스1 끝*/
+
+.ConBox-con2 {
+    border: 1px dotted #888;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.ConBox-con2 .box {
+    width: 23%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+    text-align: center;
+    border-radius: 10px;
+    /* 외곽선에 모서리를 둥글게 한다 */
+}
+
+.ConBox-con2 .box .textbox h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* 콘텐츠박스2 끝*/
+
+.ConBox-con3 {
+    border: 1px dotted #888;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.ConBox-con3 .box {
+    width: 48%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+    text-align: center;
+    border-radius: 10px;
+    /* 외곽선에 모서리를 둥글게 한다 */
+
+}
+
+.ConBox-con3 .box:nth-child(1),
+.ConBox-con3 .box:nth-child(2) {
+    margin-bottom: 50px;
+    /* 가상클래스 선택자 : nth-child(n) 부모요소의 자식요소 중에서 인덱스를 기준으로 n번째에 위치하는 요소들을 선택
+    예를들어 ul li:nth-child(2)는 ul요소의 자식 li 요소중에서 2번째 위치한 요소를 선택합니다 */
+}
+
+.ConBox-con3 left .textbox h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* 콘텐츠박스3 끝*/
+/* 콘텐츠박스4 시작 */
+
+.ConBox-con4 {
+    border: 1px dotted #888;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.ConBox-con4 .left .box {
+    width: 48%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+    text-align: center;
+    border-radius: 10px;
+    /* 외곽선에 모서리를 둥글게 한다 */
+
+}
+
+.ConBox-con4 .left .box:nth-child(1),
+.ConBox-con4 .left .box:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+/* left 끝*/
+
+.ConBox-con4 {
+    border: 1px dotted #888;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.ConBox-con4 .right .box {
+    width: 100%;
+    height: 90px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ConBox-con4 .right .box:nth-child(1),
+.ConBox-con4 .right .box:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.ConBox-con4 .right .textbox h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* right 끝*/
+
+.ConBox-con4 .left {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ConBox-con4 .right {
+    width: 40%;
+}

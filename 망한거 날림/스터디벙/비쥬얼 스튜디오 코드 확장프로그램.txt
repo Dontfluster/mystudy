@@ -1,0 +1,17 @@
+1. Live Server/Ritwick Dey
+- Live Server는 가상 서버를 이용해, 작성한 HTML 코드를 실시간으로 확인할 수 있는 확장 프로그램입니다. 코드를 작성하고 저장하면
+ Live Server와 연동된 HTML 문서가 실시간으로 반영되어 실행결과를 즉시 확인할 수 있습니다.
+2. Auto Rename Tag/Jun Han
+- 뒤에서 배우지만, HTML 태그는 시작 태그(open tag)와 종료 태그(close tag)로 구성되어 있습니다. 시작 태그와 종료 태그는 항상 같은 태그명이어야 해서,
+ 만약 시작 태그나 종료 태그 중 한쪽 태그명을 변경하면 다른 쪽 태그명도 변경해야 합니다. 이때 Auto Rename Tag를 설치하면 둘 중 한쪽을 수정했을 때
+ 다른 쪽은 자동으로 수정되게 설정할 수 있습니다.
+3. HTML to CSS autocompletion/solnurkarim
+- HTML 문서에서 class 속성으로 작성한 값을 연결된 CSS 파일에서 자동 완성되도록 지원합니다.
+4. HTML CSS Support/ecmel
+- CSS 파일에서 작성한 클래스나 아이디 선택자 값을 연결된 HTML 문서의 id 속성과 class 속성값으로 적을 때 자동 완성을 지원합니다.
+5. Code Runner/Jun Han
+- 자바스크립트 코드의 실행을 VSCode 내부에서 할 수 있게 지원합니다. 자바스크립트를 공부할 때 유용합니다.
+6. Korean Language Pack for Visual Studio Code/Microsoft
+-메뉴와 설명을 한글로 변경합니다.
+7. px-to-vw
+- 고정픽셀 퍼센트로 변경(자동)

@@ -1,0 +1,48 @@
+table {
+    table-layout: fixde;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+
+table {
+    border: 1px solid #ddd;
+}
+
+table {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 0.8em;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}

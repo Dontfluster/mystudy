@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레코드배경</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        video {
+            width: 100%;
+            z-index: -1;
+            position: absolute;
+        }
+
+        div {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            line-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div>안녕하세요</div>
+    <video src="./1024_768_bgmovie.mp4" autoplay roop>
+    </video>
+
+
+</body>
+
+</html>

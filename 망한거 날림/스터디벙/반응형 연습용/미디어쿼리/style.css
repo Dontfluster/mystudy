@@ -1,0 +1,10 @@
+.element {
+    width: 100%;
+    transition: width 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .element {
+        width: 50%;
+    }
+}

@@ -1,0 +1,10 @@
+@import "reset.css";
+
+* {
+    text-align: center;
+    color: red;
+    font-size: 36px;
+}
+
+/*h1 글씨 컬러 사이즈*/
+/*전체선택자* 입력*/

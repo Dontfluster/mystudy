@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        .margin {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            background: black;
+            padding: 3rem 0;
+        }
+
+        .margin>p {
+            width: 200px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            background: white;
+            margin: 0 12px;
+        }
+
+        .gap {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            background: black;
+            padding: 3rem 0;
+            gap: 0 2rem;
+        }
+
+        .gap>li {
+            width: 200px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="margin">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
+    <ul class="gap">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</body>
+<script>
+    console.log("Hello World")
+</script>
+
+</html>

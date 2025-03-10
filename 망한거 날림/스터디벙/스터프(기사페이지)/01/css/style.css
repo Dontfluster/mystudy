@@ -1,0 +1,14 @@
+@import "./reset.css";
+/* 리셋 */
+
+header {
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    margin: 100 auto;
+}
+
+.wrap {
+    background-color: red;
+    width: 1800px;
+}

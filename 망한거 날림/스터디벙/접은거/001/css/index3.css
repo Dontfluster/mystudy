@@ -1,0 +1,60 @@
+#wrap {
+    width: 100%;
+    background: rgb(109, 109, 186)
+}
+
+* {
+    color: white
+}
+
+#header {
+    width: 700px;
+    background-color: yellow;
+    /*0은 위아래, auto는 좌우*/
+    margin: 0 auto;
+    padding: 10px, 0;
+
+}
+
+#header>h1 {
+    text-align: center;
+}
+
+#content {
+    width: 700px;
+    background-color: beige;
+    padding: 60px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#content>.contentbox {
+    margin: 0 20px;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+
+}
+
+#footer {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+#footer>h3 {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: blue;
+}
