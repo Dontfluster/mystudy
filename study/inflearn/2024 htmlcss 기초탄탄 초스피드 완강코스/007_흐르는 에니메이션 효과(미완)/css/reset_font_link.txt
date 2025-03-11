@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=JJkFwO2gAHQ&t=351shttps://www.youtube.com/watch?v=JJkFwO2gAHQ&t=351s
+
+@charset "utf-8";
+
+/* 구글폰트에서 Cormorant 400 / Noto Sans KR 400 / Public Sans 400 가져옴 */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital@1&family=Noto+Sans+KR&family=Public+Sans&display=swap');
+
+/* Reset */
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+button {background: none; border: none;}
+img {vertical-align: middle;}
+
+/* 영어 폰트 */
+.en {font-family: 'Public Sans', sans-serif;}
+.en2 {font-family: 'Cormorant Infant', serif;} 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+ gsap.registerPlugin(ScrollTrigger);
+
+ <span class="text">
+         막막하기만한 포트폴리오 스타트! 어떻게 할까요?
+          가장 먼저 '나'를 주제로 브레인스토밍을 실시합니다.열거된 단어들 중 포트폴리오에  포폴에 넣고 싶은 키워드를 골라 마인드맵으로 정리분류하여 콘셉트를 도출합니다.
+          다음으로 레퍼런스를 찾습니다. 최신 트렌드에 맞고, 심미적으로 우수한 레퍼런스를 3-4종 찾습니다. 국내 기업보다 해외 웹에이전시 사이트나 개인 포트폴리오를 대상으로 찾는 것이 참고하기 좋습니다.그것을 토대로 아이디어스케치, 와이어프레임, 시안디자인 , 코딩 순으로 진행합니다.
+ </span>
+
+
+<span class="text">웹포트폴리오 기본구성으로는 메인페이지, 내소개 페이지, 워크리스트 페이지.. 등의 3-4개 페이지정도면 적당하며, contact은 footer영역을 활용합니다</span>
+ <span class="text">피그마에서 레퍼런스 자료들을 펼쳐놓고 이름 참고하여, 자신의 이야기의 전체적 흐름을 스케치합니다. 와이어프레임 형식으로도 괜찮습니다. </span>
+  <span class="text">다음은 시안디자인단계로 레퍼런스를 최대한 참고하여 자신의 스타일에 맞게 비쥬얼적 요소를 고려하여 디자인을 진행합니다.  </span>

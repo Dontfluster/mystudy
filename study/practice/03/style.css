@@ -1,0 +1,26 @@
+#main_left {
+    border: 1px solid #777;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+#main_content {
+    border: 1px solid #777;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+#main_right {
+    border: 1px solid #777;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}

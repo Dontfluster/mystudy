@@ -1,0 +1,43 @@
+ul.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid gray;
+}
+
+ul.list::after {
+    /* 바로 이 부분이 실무 꿀팁입니다! 이런 방법이!! */
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tab-button {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    float: left;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    /* 이 부분도 약간의 팁. 하단 라인과 관련있습니다. */
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.selected {
+    border-top: 2px solid dodgerblue;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #ccc;
+    color: black;
+    margin-top: -2px;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.show {
+    display: block;
+}

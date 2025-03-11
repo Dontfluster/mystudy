@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Noto Sans KR", serif;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.con {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /* 너비의 가운데 정렬 */
+    align-items: center;
+    /* 세로축 가운데 정렬 */
+}
+
+.con h2 {
+    font-size: 68px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Sticky {
+    /* background: yellow; */
+    padding: 100px 0;
+}
+
+.Sticky .listBox {
+    /* background: red; */
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    /* 요소를 일반적인 문서 흐름에 따라 배치한다.
+    요소 자기 자신의 원래 위치(static일 때의 위치)를 기준으로 배치한다 */
+}
+
+.Sticky .listBox .box {
+    /* background: skyblue; */
+    padding: 50px 80px 60px;
+    border: 3px solid #000;
+    margin-bottom: 35px;
+    border-radius: 15px 15px 0 0;
+    position: sticky;
+    top: 100px;
+    background: #fff;
+}
+
+.Sticky .listBox .box h2 {
+    font-size: 40px;
+    border-bottom: 1px solid #ddd;
+    /* background: red; */
+    padding-bottom: 20px;
+}
+
+.Sticky .listBox .box .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sticky .listBox .box .bottom .num {
+    font-size: 200px;
+}
+
+.Sticky .listBox .box .bottom .rightBox {
+    width: 50%;
+}
+
+.Sticky .listBox .box .bottom .rightBox .tit {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.Sticky .listBox .box.a h3 {
+    color: #ffb84f;
+}
+
+.Sticky .listBox .box.b h3 {
+    color: #90c3cd;
+}
+
+.Sticky .listBox .box.c h3 {
+    color: #47b172;
+}
+
+.Sticky .listBox .box.d h3 {
+    color: #c97bf6;
+}
+
+/* 15:49 */
