@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #333;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.wrap .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 100px;
+}
+
+.wrap .nav {
+    width: 800px;
+    font-size: 40px;
+    color: #111;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+}
