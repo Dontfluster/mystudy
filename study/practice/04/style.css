@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 ul,
@@ -15,6 +16,7 @@ a {
 
 body {
     color: #333;
+    box-sizing: border-box;
 }
 
 .wrap {
@@ -38,4 +40,19 @@ body {
     justify-content: space-around;
     margin-left: 20px;
     align-items: center;
+}
+
+
+article {
+    display: flex;
+}
+
+article .album-art {
+    width: 600px;
+    height: 600px;
+    margin: 0 20px;
+}
+
+article .gasa {
+    font-size: 24px;
 }
